@@ -1,0 +1,18 @@
+{
+  "name": "fsjs-express-node-v1",
+  "version": "0.0.1",
+  "description": "Project 6 - Full Stack JavaScript - Portfolio Site with Express on NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "FSJS"
+  ],
+  "author": "emrethedev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
