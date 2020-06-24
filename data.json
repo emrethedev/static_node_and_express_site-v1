@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "A program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://pr1-random-quote-generator.netlify.app/",
+            "github_link": "https://github.com/emrethedev/a_random_quote_generator-v1",
+            "img_urls": ["/st/images/pr1RandomQuote1.png", "/st/images/pr1RandomQuote2.png"]
+        },
+
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering",
+            "description": "A JavaScript app to divide a long list into a series of pages.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://pr2-list-pagination.netlify.app/",
+            "github_link": "https://github.com/emrethedev/list_pagination_and_filtering-v1-final",
+            "img_urls": ["/st/images/pr2Pagination1.png", "/st/images/pr2Pagination2.png"]
+        },
+
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "An app to enhance a form so that it’s engaging, interactive, and easy to use.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://pr3-interactive-form.netlify.app/",
+            "github_link": "https://github.com/emrethedev/interactive-form-v2",
+            "img_urls": ["/st/images/pr3FormValidation1.png", "/st/images/pr3FormValidation2.png"]
+        },
+
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://pr4-oop-game-show.netlify.app/",
+            "github_link": "https://github.com/emrethedev/oop_game-v2",
+            "img_urls": ["/st/images/pr4PhraseHunter1.png", "/st/images/pr4PhraseHunter2.png"]
+        },
+
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "An employee directory app communicating with a third-party API.",
+            "technologies": ["HTML", "CSS", "JavaScript", "APIs"],
+            "live_link": "https://pr5-public-api.netlify.app/",
+            "github_link": "https://github.com/emrethedev/public_api_request-v1",
+            "img_urls": ["/st/images/pr5PublicApi1.png", "/st/images/pr5PublicApi2.png"]
+        }
+    ]
+}
