@@ -52,21 +52,25 @@ app.get("/project/:id", (req, res, next) => {
 
 app.use( ( req, res, next ) => {
 
-    const err = new Error("Cannot process your request");
+    const err = new Error("Not Found: Cannot process your request");
     err.status = 404;
     next(err);
 
 });
 
+
 // // Own Error Handler to Bypass Express's Handler
 // // https://teamtreehouse.com/library/error-handling-middleware
 
-app.use( ( err, req, res, next ) => {
+    // Now error messages print to the Node/Express console:    
+
+app.use( (err, req, res, next) => {
 
     res.locals.error = err;
+    console.error("There was an error processing the request.");
     const stat = err.status || 500;
     res.status(stat);
-    res.render( "error", err );
+    res.render("error");
     
 } );
 
